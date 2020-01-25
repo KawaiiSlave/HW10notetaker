@@ -1,11 +1,7 @@
 let $noteTitle = $(".note-title");
-
 let $noteText = $(".note-textarea");
-
 let $saveNoteBtn = $(".save-note");
-
 let $newNoteBtn = $(".new-note");
-
 let $noteList = $(".list-container .list-group");
 
 
@@ -263,8 +259,6 @@ let getAndRenderNotes = function() {
   });
 
 };
-
-
 
 $saveNoteBtn.on("click", handleNoteSave);
 
